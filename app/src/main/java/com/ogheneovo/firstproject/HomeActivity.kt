@@ -16,6 +16,8 @@ class HomeActivity : AppCompatActivity() {
 
         usernameDisplay = findViewById(R.id.userNameDisplay)
         //usernameDisplay.text = "Hello people"
-        usernameDisplay.text = intent.getStringExtra("name")
+        //usernameDisplay.text = intent.getStringExtra("name")
+        usernameDisplay.text = "welcome, ${intent.getStringExtra("name")}"
+        // am using curling brace because am calling an expression not a sigular value
     }
 }
