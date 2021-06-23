@@ -19,5 +19,6 @@ class HomeActivity : AppCompatActivity() {
         //usernameDisplay.text = intent.getStringExtra("name")
         usernameDisplay.text = "welcome, ${intent.getStringExtra("name")}"
         // am using curling brace because am calling an expression not a sigular value
+        // git init the folder and clone from url of repo
     }
 }
